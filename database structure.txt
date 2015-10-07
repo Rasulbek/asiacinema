@@ -1,0 +1,31 @@
+film:
+id
+name
+original_name
+year
+more
+genre
+category (0+,3+,18+ ...)
+type(3d or 2d)
+
+photo:
+id
+film_id
+photo_sm
+photo_md
+photo_lg
+
+halls:
+id
+name
+type (3d or 2d)
+seats
+
+shows:
+id
+film_id
+is_premiere(0-no 1-yes)
+date
+time
+hall
+price
