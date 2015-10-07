@@ -4,7 +4,7 @@ class Start
 {
    function __construct(){
 
-       $url = isset($_GET['url']) ? $_GET['url'] : "";
+       $url = isset($_GET['url']) ? $_GET['url'] : "index";
        $url = rtrim($url,'/');
        $url = explode('/',$url);
        if(empty($url[0])){

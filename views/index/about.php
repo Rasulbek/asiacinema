@@ -5,23 +5,20 @@
      <body>
      <br>
      <div class="container">
-          <div class="col-xs-6">
-               <img src="<?php print URL?>public/img/map.png">
+          <div class="col-lg-7 col-xs-12">
+               <img class="col-xs-12" src="<?php print URL?>public/img/map.png">
           </div>
-          <div class=" col-xs-offset-1 col-xs-4">
-               <div style="font-size: large" class="text-center">Коротко о нас </div>
-               Цифровой показ DCP 2К. Профессиональный кинопроектор Cinemeccanica. Звук Dolby Digital Surround-EX 7.1. Звуковая акустика от QSC и KCS.<br>
-               5 залов, количество сидячих мест:<br>
-               1. Красный Зал — 200 мест<br>
-               2. Синий Зал — 130 мест<br>
-               3. Ретро Зал- 21 мест<br>
-               4. Vip Зал — 12 мест<br>
-               5. Семейный Зал — 7 мест<br>
+          <div class=" col-lg-4 col-xs-12">
+               <br><div style="font-size: large" class="text-center">Коротко о нас </div>
+               <br>Адрес: г. Ташкент, Юнусабад-6 ...<br>
+               <br>
+               <span class="glyphicon glyphicon-phone-alt"></span> Телефон: +9989......<br>
+               <span class="glyphicon glyphicon-envelope"></span> Почта: почта@сервер.уз
 
-               Дополнительные услуги: кафе-бар, VIP места.<br>
+
           </div>
      </div>
-
+<div class="col-xs-12"><br></div>
 
      </body>
 </html>

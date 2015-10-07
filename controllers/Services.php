@@ -8,6 +8,9 @@
 class Services extends Controller
 {
     function __construct(){
+        Session::init();
+        Session::set('active', "services");
+        Session::set('title', "Услуги");
         parent::__construct();
     }
     function index(){

@@ -8,6 +8,9 @@
 class About extends Controller
 {
     function __construct(){
+        Session::init();
+        Session::set('active', "about");
+        Session::set('title', "О нас");
         parent::__construct();
     }
     function index(){

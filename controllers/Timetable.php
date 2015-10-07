@@ -9,6 +9,9 @@
 class Timetable extends Controller
 {
     function __construct(){
+        Session::init();
+        Session::set('active', "timet");
+        Session::set('title', "Афиша");
         parent::__construct();
     }
     function index(){
